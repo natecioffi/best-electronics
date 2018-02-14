@@ -115,10 +115,15 @@ h1 {
 div#contact-info:last-child{
 	padding-bottom: 10em;
 	}
+#disclamer{
+	float: right;
+	width: 60%;
+	margin: 0 0 0 -10em;
+	}
 .history{
 	font-size: 1.2em;
 	margin: 0 auto;
-	max-width: 60em;
+	max-width: 40em;
 	width: 90%;
 	padding: 2em 0 1em 0;
 	line-height: 1.5;
