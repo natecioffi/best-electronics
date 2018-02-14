@@ -10,6 +10,11 @@ body{
 	width: 80%;
 	max-width: 40em;
 	}
+.framework2{	
+	width: 90%;
+	max-width: 150em;
+	margin: 0 auto;
+	}
 nav{
 	margin: 2em 0 0em 0;
 	
@@ -52,7 +57,7 @@ nav a{
 div#side-bar{
 	margin: 0;
 	float: left;
-	height: 100em;
+	height: 250em;
 	width: 15em;
 	background: #bbb;
 	}
@@ -91,7 +96,7 @@ footer{
 footer img{
  	padding-top: 3em;
  	padding-bottom: 2em;
-	height: 10em;
+	height: 5em;
 	width: auto;
 }
 footer ul {
@@ -118,6 +123,42 @@ div#contact-info:last-child{
 	padding: 2em 0 1em 0;
 	line-height: 1.5;
 	}
+#gallary h2{
+	margin: 1em 0 1em 0em;
+	text-align: left;
+	}
+
+#gallary figure {
+	margin: 0 5% 0 5%;
+	clear: right;
+	}
+#gallary img{
+	width: 17.5em;
+	height: 12.5em;
+	overflow: hidden;
+	
+	}
+#gallary figure figcaption{
+	text-align: left;
+	font-family: arial;
+	font-weight: light;
+	font-style: normal;
+	font-size: 1em;
+	margin: 0 0 1em 0;
+	}
+#gallary figure{
+	display: inline-block;
+	
+	}
+#gallary figure img{
+	margin: 0 auto;
+	}
+#gallary h2{
+	margin: 5em 0 1em 0;
+	text-align: center;
+	}
+	
+	
 @media (max-width: 50em;) {
 nav ul {
 	display: block;
@@ -127,7 +168,9 @@ nav img {
 	margin: 1 auto;
 	width: 80%;
 	}
-}
 	
+	
+}
+
 	
 }
